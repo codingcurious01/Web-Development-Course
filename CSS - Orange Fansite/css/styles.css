@@ -1,21 +1,27 @@
 /* TAG / ELEMENT Selector */
 h1{
-    color: orange;   
+    color: green;   
 }
 
-img{
-    background-color: yellow;
-    background-position-x: 25%;
-    padding: 100px;
+/* On MouseOver => hover will work */
+img:hover{
+    /* background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
+    background-color: gold;
+    box-shadow: 3px 3px 10px purple;
 }
 
 /* CLASS Selector */
-.drink{
+.drinkImg{
     background-color: red;
 }
-
-.orange{
+.orangeImg{
     background-color: green;
+}
+.circular{
+    border-radius: 10px;
 }
 
 /* ID Selector */
+#heading{
+    color: orange;
+}
