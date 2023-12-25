@@ -1,0 +1,21 @@
+/* TAG / ELEMENT Selector */
+h1{
+    color: orange;   
+}
+
+img{
+    background-color: yellow;
+    background-position-x: 25%;
+    padding: 100px;
+}
+
+/* CLASS Selector */
+.drink{
+    background-color: red;
+}
+
+.orange{
+    background-color: green;
+}
+
+/* ID Selector */
