@@ -1,23 +1,19 @@
 body {
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin: 0;
 }
 
 h1 {
     margin: 0;
 }
 
-.top {
+/* .top-container {
     background-color: #E36414;
     height: 200px;
     width: 200px;
     border: solid 10px;
     padding: 20px;
-}
-
-.middle{
+} 
+.middle-container{
     background-color: blue;
     border: solid 20px;
     height: 200px;
@@ -25,10 +21,11 @@ h1 {
     margin-left: 259.2px;
 }
 
-.bottom{
+.bottom-container{
     background-color: red;
     border: solid 10px;
     height: 200px;
     width: 200px;
     margin-left: 499.2px;
 }
+*/
