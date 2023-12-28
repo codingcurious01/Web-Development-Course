@@ -5,12 +5,32 @@ body {
 }
 
 h1{
-    margin: 0;
+    margin: 0 auto 0 auto;
+    font-size: 100px;
     font-family: 'Sacramento', cursive;
+    color: #66BFBF;
 }
 
-h2, h3{
+h2{
     font-family: 'Merriweather', serif;
+    color: #66BFBF;
+    font-size: 40px;
+    /* To reduce or increase the thickness of the font */
+    font-weight: normal;
+    line-height: 2;
+}
+
+a{
+    color: #11999E;
+}
+
+p{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #11999E;
 }
 
 .top-cloud, .bottom-cloud{
@@ -35,7 +55,32 @@ h2, h3{
     text-decoration: underline;
 }
 
+.skill-row{
+    width: 50%;
+    /* to center the design use: (display: inline-block or margin: auto) */
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 
+.code-img{
+    width: 25%;
+    /* to display text right side of image we will float the image to left and the text automatically goes to right side of image */
+    float: left;
+     /* gives some extra space between image and text */
+    margin-right: 30px;
+
+    border-radius: 10%;
+    overflow: hidden; /* This ensures that the image stays within the circular boundaries */
+}
+
+.chilli-img{
+    width: 25%;
+    /* to display text left side of image we will float the image to right and the text automatically goes to left side of image */
+    float: right;
+    /* gives some extra space between image and text */
+    margin-left: 30px;
+}
 
 /* 
 -- My code to put top-cloud on top right of name
@@ -67,6 +112,19 @@ h1 {
     top: 20px;
     bottom: 0;
 } 
+
+.skill-row p{
+    line-height: 1.5;
+}
+
+// to unfollow flaot property (voilate float property)
+ .dd-description{
+    clear: left;
+ }
+
+ .chilli-description{
+    clear: right;
+ }
 */
 
 
