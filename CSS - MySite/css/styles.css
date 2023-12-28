@@ -1,31 +1,73 @@
 body {
     margin: 0;
+    text-align: center;
+    height: 1000px;
+    font-family: 'Merriweather', serif;
 }
+
+h1{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2, h3{
+    font-family: 'Merriweather', serif;
+}
+
+.top-cloud, .bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    right: 500px;
+    top: 50px;
+}
+.bottom-cloud{
+    left: 500px;
+    bottom: 300px;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+} 
+
+.textUnderline{
+    text-decoration: underline;
+}
+
+
+
+/* 
+-- My code to put top-cloud on top right of name
+
+.top-container {
+    position: relative;
+} 
 
 h1 {
-    margin: 0;
+    //width: 13%;
+    //if we use width mostly we also should margin style to align
+    //margin: top right bottom left (or) margin: (top and bottom) (left and right) [with single value for each] , etc..
+    margin: 0 auto 0 auto; 
+    margin: 0 auto; 
+    
+    //MyCode: 
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 100px;
+    
 }
 
-/* .top-container {
-    background-color: #E36414;
-    height: 200px;
-    width: 200px;
-    border: solid 10px;
-    padding: 20px;
+.bottom-cloud, .top-cloud{
+    position: absolute;
+}
+
+.top-cloud{
+    right: 570px;
+    top: 20px;
+    bottom: 0;
 } 
-.middle-container{
-    background-color: blue;
-    border: solid 20px;
-    height: 200px;
-    width: 200px;
-    margin-left: 259.2px;
-}
-
-.bottom-container{
-    background-color: red;
-    border: solid 10px;
-    height: 200px;
-    width: 200px;
-    margin-left: 499.2px;
-}
 */
+
+
