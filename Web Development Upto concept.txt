@@ -2,4 +2,4 @@ Folder Path:
 
 C:\Users\camsa_000\Documents\MEGA\Web Tech materials
 \freesoff.com The Complete 2020 Web Development Bootcamp
-\19. Git, Github and Version Control
+\2. Installing Bootstrap
