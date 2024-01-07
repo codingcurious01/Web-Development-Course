@@ -1,0 +1,110 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    height: 1200px;
+}
+
+/* 1st Div styles */
+
+h1{
+    margin: 0 auto;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;;
+}
+
+
+.textUnderline{
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #7FC7D9;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud, .bottom-cloud{
+    position: absolute;
+    opacity: 0.5;
+    width: 250px;
+}
+
+.top-cloud2, .bottom-cloud2{
+    position: absolute;
+    opacity: 0.7;
+    width: 200px;
+}
+
+.top-cloud{
+    top: 80px;
+    right: 220px;  
+}
+
+.top-cloud2{
+    top: 350px;
+    left: 900px;
+}
+
+.bottom-cloud{
+    top: 150px;
+    left: 270px;
+}
+
+.bottom-cloud2{
+   left: 500px;
+   bottom: 325px;
+}
+
+.mountain{
+    opacity: 1;
+}
+
+
+/* 2nd Div styles */
+.middle-container{
+    position: relative;
+}
+
+.middle-container h2{
+    margin-bottom: 30px;
+}
+
+.middle-container img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.java-skill-img{
+    left: 150px;
+}
+
+.spring-boot-skill{
+    position: absolute;
+    left: 350px;
+}
+
+.spring-boot-skill-img{
+    position: inherit;
+}
+
+#spring-boot-logo-title{
+    position: relative;
+    top: 180px;
+    left: 105px;
+}
+
+.html-skill-img{
+    left: 650px;
+}
+
+.css-skill-img{
+    left: 890px;
+}
+
+.js-skill-img{
+    left: 1150px;
+}
