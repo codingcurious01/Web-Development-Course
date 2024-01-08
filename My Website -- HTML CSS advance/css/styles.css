@@ -3,7 +3,21 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    height: 1200px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 40px;
+    /* To reduce or increase the thickness of the font */
+    font-weight: normal;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 /* 1st Div styles */
@@ -20,7 +34,7 @@ h1{
 }
 
 .top-container {
-    background-color: #7FC7D9;
+    background-color: #e4f9f5;
     padding-top: 100px;
     position: relative;
 }
@@ -59,19 +73,39 @@ h1{
 
 .mountain{
     opacity: 1;
+    margin: 0;
+}
+
+/* Profile(2nd) Div styles */
+#profile-img{
+    margin-top: 5px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+hr{
+    border: dotted #40514e 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 2;
 }
 
 
-/* 2nd Div styles */
-.middle-container{
+/* Skills(3rd) Div styles */
+.skills-container{
     position: relative;
 }
 
-.middle-container h2{
+.skills-container h2{
     margin-bottom: 30px;
 }
 
-.middle-container img{
+.skills-container img{
     position: absolute;
     width: 200px;
     height: 200px;
@@ -91,7 +125,7 @@ h1{
     position: inherit;
 }
 
-#spring-boot-logo-title{
+#spring-boot-logo-tag{
     position: relative;
     top: 180px;
     left: 105px;
@@ -102,9 +136,197 @@ h1{
 }
 
 .css-skill-img{
-    left: 890px;
+    left: 900px;
 }
 
 .js-skill-img{
     left: 1150px;
 }
+
+.mysql-skill-img{
+    top: 360px;
+    left: 150px;
+}
+
+.hibernate-skill-img{
+    top: 360px;
+    left: 403px;
+}
+
+.eclipse-ide-skill-img{
+    top: 360px;
+    left: 650px;
+}
+
+#eclipse-ide-logo-tag{
+    position: absolute;
+    top: 550px;
+    left: 700px;
+}
+
+.intellij-ide-skill-img{
+    top: 360px;
+    left: 900px;
+}
+
+#intellij-ide-logo-tag{
+    position: absolute;
+    top: 550px;
+    left: 950px;
+}
+
+.visual-studio-skill-img{
+    top: 360px;
+    left: 1150px;
+}
+
+#visual-studio-logo-tag{
+    position: absolute;
+    top: 550px;
+    left: 1200px;
+}
+
+.git-skill-img{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+}
+
+#git-logo-tag{
+    position: absolute;
+    top: 780px;
+    left: 245px;
+}
+
+.github-skill-img{
+    position: absolute;
+    top: 600px;
+    left: 403px;
+}
+
+#github-logo-tag{
+    position: absolute;
+    top: 780px;
+    left: 480px;
+}
+
+.canva-skill-img{
+    position: absolute;
+    top: 600px;
+    left: 650px;
+}
+
+.upskill-img{
+    position: absolute;
+    top: 600px;
+    left: 900px;
+}
+
+#upskill-logo-tag{
+    position: absolute;
+    top: 780px;
+    left: 965px;
+}
+
+#skills-hr{
+    margin-top: 800px;
+}
+
+/* Work experience Div style */
+.work-container{
+    margin: 100px auto 100px auto;
+}
+
+.work-row{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.palle-work-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+/* Projects Div styles */
+.project-container{
+    margin: 100px auto 100px auto;
+}
+
+.project-row{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.bmart-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+/* Education Div styles */
+.edu-container{
+    margin: 100px auto 100px auto;
+}
+
+.edu-row{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;  
+}
+
+.edu-container img{
+    width: 25%;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+/* Course Div styles */
+.course-container{
+    margin: 100px auto 100px auto;
+}
+
+.course-row{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.palle-course-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.udemy-course-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+
+/* bottom(last-footer) div style */
+.bottom-container{
+    padding: 50px;
+    background-color: #66BFBF;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
