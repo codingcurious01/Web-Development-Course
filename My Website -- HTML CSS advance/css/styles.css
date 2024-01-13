@@ -20,7 +20,7 @@ h3 {
     color: #11999E;
 }
 
-/* 1st Div styles */
+/* 1st Div Section */
 
 h1{
     margin: 0 auto;
@@ -76,7 +76,7 @@ h1{
     margin: 0;
 }
 
-/* Profile(2nd) Div styles */
+/* Profile(2nd) Div Section */
 #profile-img{
     margin-top: 5px;
     width: 200px;
@@ -96,7 +96,7 @@ p {
 }
 
 
-/* Skills(3rd) Div styles */
+/* Skills(3rd) Div Section */
 .skills-container{
     position: relative;
 }
@@ -250,7 +250,7 @@ p {
     overflow: hidden;
 }
 
-/* Projects Div styles */
+/* Projects Div Section */
 .project-container{
     margin: 100px auto 100px auto;
 }
@@ -269,7 +269,7 @@ p {
     overflow: hidden;
 }
 
-/* Education Div styles */
+/* Education Div Section */
 .edu-container{
     margin: 100px auto 100px auto;
 }
@@ -286,7 +286,7 @@ p {
     overflow: hidden;
 }
 
-/* Course Div styles */
+/* Course Div Section */
 .course-container{
     margin: 100px auto 100px auto;
 }

@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat';
     font-weight: 500;
+    position: relative;
 }
 
 h1{
@@ -11,10 +12,17 @@ h1{
     line-height: 1.5;
 }
 
+h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3{
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 p{
@@ -26,7 +34,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%; 
 }
 
 /* Navigation Bar */
@@ -59,16 +67,21 @@ p{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
-/* Features styles */
+/* Features Section */
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box{
     text-align: center;
     padding: 4%;
+
 } 
 
 .feature-icon{
@@ -78,4 +91,43 @@ p{
 
 .feature-icon:hover{
     color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
 }
