@@ -1,27 +1,28 @@
-body{
+/* Fine-tune typography */
+body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    position: relative;
-    margin: 0;
-}
+    font-weight: 400;
+}  
+
+
 
 h1{
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
 h2{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h3{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
 }
@@ -65,14 +66,36 @@ p{
     font-weight: 300;
 }
 
+/* Navigation Bar improvements */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #FF9843;
+}
+
 /* Profile image */
 .profile-img{
     width: 50%;
-    border-radius: 10%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     position: absolute;
     right: 25%;
     top: 4%;
 }
+
+/* Section Backgrounds and Animations */
+#nav-intro, #project {
+    background: linear-gradient(to right, #FFDD95, #FF9843);
+    transition: background 0.5s ease-in-out;
+}
+
+/* Add hover effect to buttons */
+.btn-dark:hover {
+    background-color: #E36414;
+  }
+
+  /* Footer improvements */
+.contact-icons a {
+    margin: 0 10px;
+  }
 
 /* Title styles for screen width 1028px or less */
 @media(max-width: 1028px){
@@ -245,7 +268,6 @@ p{
 }
 
 .contact-icon{
-    margin: auto 1.5%;
     color: #FFBB64;
 }
 
@@ -267,6 +289,27 @@ p{
 #footer p{
     margin-bottom: 0;
     padding: 3% 9%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #FF9843;
+}
+
+.contact-icon:hover, .footer-icon:hover {
+    color: #E36414;
+}
+
+/* Fine-tune spacing and alignment */
+.contact-icon, .footer-icon {
+    transition: color 0.3s ease-in-out;
 }
 
 .footer-text{

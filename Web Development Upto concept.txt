@@ -2,5 +2,5 @@ Folder Path:
 
 C:\Users\camsa_000\Documents\MEGA\Web Tech materials
 \freesoff.com The Complete 2020 Web Development Bootcamp
-\7. Intermediate Bootstrapfreesoff.com
-\9. to start
+\8. Introduction to Javascript ES6
+\18. Functions Part 2 Parameters and Arguments
