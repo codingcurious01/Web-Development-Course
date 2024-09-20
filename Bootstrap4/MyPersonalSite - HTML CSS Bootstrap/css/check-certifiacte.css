@@ -190,29 +190,16 @@ p{
 #certification{
     padding: 5% 7%;
     text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.certificate-box{
+    padding: 4%;
 }
 
 .course-img{
-    width: 90%;
-}
-
-.course-row{
-    padding: 2% 8%;
-}
-
-.course-col{
-    padding: 1% 2%;
-}
-
-.down-bit{
-    position: absolute;
-    top: 10%;
-}
-
-@media(max-width: 1400px){
-    .down-bit{
-        position: static;
-    } 
+    width: 100%;
 }
 
 
